@@ -4,14 +4,11 @@ const hr = document.querySelector("#hr");
 const mn = document.querySelector("#mm");
 const sc = document.querySelector("#sc");
 
-const btn = document.querySelector('.btn');
-const stp = document.querySelector('.stp');
 
 
 // console.log('');
 
-btn.addEventListener('click',er,true);
- function er(){
+ 
     setInterval(() => {
         let day = new Date();
         // console.log(day);
@@ -26,9 +23,9 @@ btn.addEventListener('click',er,true);
       
       
       }, 1);
-    }
+    
 
-stp.removeEventListener('click',er,false)
+
 
 
 
